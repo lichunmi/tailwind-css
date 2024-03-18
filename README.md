@@ -2,7 +2,7 @@
 [위니브 강의자료](https://www.notion.so/paullabworkspace/Tailwind-CSS-c3aebde0f224435ba615fc12e6abc843)
 
 #VS CODE Snippets 설정
-스니팻 설정 > 설정 > User Snippets > html.jason
+스니팻 설정 > 설정 > User Snippets > html.jason > 코드 추가
 
 ```javascript
       "print to console": {

@@ -1,7 +1,8 @@
 # tailwind-css
 [위니브 강의자료](https://www.notion.so/paullabworkspace/Tailwind-CSS-c3aebde0f224435ba615fc12e6abc843)
 
-# vsc Extension
+- vsc Extension
+- JetBrains IDE 사용시 @apply 문법이 HTML 문서 내에서 사용 가능
 
 # VS CODE Snippets 설정
 스니팻 설정 > 설정 > User Snippets > html.jason > 코드 추가

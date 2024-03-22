@@ -46,13 +46,17 @@
 -> tailwind.config.js  
 **tailwind.config.js에 content 수정하기**
 ```javascript
-		module.exports = {
-		  content: ["./src/**/*.{html,js}"],
-		  theme: {
-		    extend: {},
-		  },
-		  plugins: [],
-		}
+		/** @type {import('tailwindcss').Config} */
+            module.exports = {
+            content: [
+            './pages/**/*.{html,js}',
+            './components/**/*.{html,js}',
+            ],
+            theme: {
+            extend: {},
+            },
+            plugins: [],
+            }
 ```  
 
 **src/input.css 파일 만들어서 하단 코드 넣기**
@@ -65,5 +69,6 @@
             @apply border-4 border-blue-500;
       }
 ```
-**npx tailwindcss -i ./src/input.css -o ./src/output.css --watch**
+**npx tailwindcss -i ./src/input.css -o ./src/output.css --watch**  
 **html에 <link href="./output.css" rel="stylesheet"> 연결**
+**html 파일에 클라스 grid-i 적용가능**

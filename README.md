@@ -72,3 +72,9 @@
 **npx tailwindcss -i ./src/input.css -o ./src/output.css --watch**  
 **html에 <link href="./output.css" rel="stylesheet"> 연결**
 **html 파일에 클라스 grid-i 적용가능**
+
+# -----------------  
+ScreenReaderOnly
+tailwindcss = sr-only
+NAVER       = Blind  
+밤          = screenout

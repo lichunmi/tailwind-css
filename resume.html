@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<title>resume</title>
+<style>
+    #u_skip {
+        position: relative;
+        z-index: 3000;
+    }
+    #u_skip a {
+        position: absolute;
+        top: -60px;
+        left: 0;
+        width: 138px;
+        background: #333;
+        text-align: center;
+    }
+    #u_skip a:focus {
+        top: 0px;
+        border: 2px solid #4ec53d;
+    }
+    #u_skip span {
+        display: inline-block;
+        padding: 2px 6px 0 0;
+        font-size: 13px;
+        line-height: 26px;
+        color: #fff;
+        letter-spacing: -1px;
+        white-space: nowrap;
+    }
+</style>
+</head>
+<body>
+    <h1 class="sr-only">이준미 이력서</h1>
+    <div id="u_skip">
+        <a href="#details">
+            <span>Details 바로가기</span>
+        </a>
+        <a href="#profile">
+            <span>Profile 바로가기</span>
+        </a>
+        <a href="#project">
+            <span>Project History 바로가기</span>
+        </a>
+    </div>
+    <div class="container lg:p-20 p-8 space-y-4">
+        <div class="lg:flex">
+            <div class="lg:w-1/4">
+                <img src="./junmi.png" alt="이준미의 프로필 이미지" class=" h-32 w-32 rounded-full lg:w-48 lg:h-48">
+            </div>
+            <div class="lg:w-3/4">
+                <!-- 7xl: 72px, 5xl: 48px -->
+                <div class="text-5xl lg:text-7xl">JUNMI<span class="text-[#3EAF0E]">.LI</span></div>
+                <div class="mt-6 text-gray-400 font-bold">Web Designer, Publisher</div>
+                <!-- mt-6	margin-top: 1.5rem; /* 24px */-->
+            </div>
+        </div>
+        <div class="lg:flex" id="details">
+            <div class="lg:w-1/4 flex-col space-y-8">
+                <!-- text-2xl	font-size: 1.5rem; /* 24px */ -->
+                <div class="text-2xl text-[#3EAF0E] font-bold"><span class="inline-block w-8 h-8 bg-[#3EAF0E] text-white rounded text-center">1</span> Details</div>
+                <div class="ml-10">
+                    <div class="text-xl">Github</div>
+                    <a class="text-gray-400" href="https://github.com/lichunmi">https://github.com/lichunmi</a>
+                </div>
+                <div class="ml-10">
+                    <div class="text-xl">Pick Project</div>
+                    <ul class="pl-10 list-disc space-y-1">
+                        <li><a href="#none">Braun</a></li>
+                        <li><a href="#none">Kiehls</a></li>
+                        <li><a href="#none">CJ 제일제당</a></li>
+                        <li><a href="#none">Busan Film</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-2 ml-10">
+                    <div class="text-xl">Homepage And Service</div>
+                    <a class="text-gray-400 inline-block" href="https://dlwnsal13.cafe24.com/braun/index.html">https://dlwnsal13.cafe24.com/braun/index.html</a>
+                    <a class="text-gray-400 inline-block" href="https://dlwnsal13.cafe24.com/kiehl/index.html">https://dlwnsal13.cafe24.com/kiehl/index.html</a>
+                    <a class="text-gray-400 inline-block" href="https://dlwnsal13.cafe24.com/pf/index.html">https://dlwnsal13.cafe24.com/pf/index.html</a>
+                </div>
+                <div class="ml-10">
+                    <div class="text-xl space-y-1">Skill</div>
+                    <ul class="pl-10 list-disc">
+                        <li>Responsive Web</li>
+                        <li>Wordpress</li>
+                        <li>Web Design</li>
+                    </ul>
+                    <div class="flex gap-2 mt-2">
+                        <div class="w-1/6">CSS</div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                    <div class="flex gap-2 mt-2">
+                        <div class="w-1/6">TailwindCSS</div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                    <div class="flex gap-2 mt-2">
+                        <div class="w-1/6">SCSS</div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                    <div class="flex gap-2 mt-2">
+                        <div class="w-1/6">JS</div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                    <div class="flex gap-2 mt-2">
+                        <div class="w-1/6">Git/GitHub</div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                        <div class="w-1/6 bg-[#3EAF0E] h-2 mt-2 rounded-lg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-3/4 lg:m-0 mt-6" id="profile">
+                <div class="text-2xl text-[#3EAF0E] font-bold">
+                    <span class="inline-block w-8 h-8 bg-[#3EAF0E] text-white font-bold rounded text-center">2</span>
+                    Profile
+                </div>
+                <div class="ml-10">
+                    <div class="mt-8 space-y-2">
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque qui magni aspernatur magnam distinctio quo. Explicabo sunt nam inventore aliquam sit quos excepturi animi neque consectetur nulla. Sit, voluptatibus iusto!</div>
+                        <div>Accusantium alias sint corrupti similique aliquam impedit eligendi laudantium, recusandae veritatis. Tempore sit aut dolorem, doloribus reprehenderit veniam quibusdam! Odit aspernatur voluptate dolor rem dolores ratione vero? Fuga, quas totam!</div>
+                    </div>
+                </div class="mt-8">
+                <div class="flex-col space-y-4 mt-8" id="project">
+                    <div class="text-2xl text-[#3EAF0E] font-bold"><span class="inline-block w-8 h-8 bg-[#3EAF0E] text-lg text-white font-bold rounded text-center">3</span> Project History</div>
+                    <div class="ml-10">
+                        <div class="border-l-4 border-[#3EAF0E] pl-2">프로젝트 제목<span class="text-sm text-gray-500">2024.03.20 - 2024.04.20</span></div>
+                        <div class="text-gray-400">Use Skill : <span class="text-blue-500">#HTML #CSS #JS</span></div>
+                        <div class="text-gray-400">Project link : <a href="#none">www.0000.com/</a></div>
+                        <div class="mt-8 ml-4">
+                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, adipisci expedita. Omnis dolor sunt harum, ea at cumque ex eveniet pariatur consectetur! Assumenda sunt, nisi nihil esse facere neque in!</div>
+                            <div>Omnis nulla quos porro soluta animi, ad repudiandae non sit fugit blanditiis explicabo, quae cum ex veniam quis ipsa beatae mollitia id ab harum quam. Magni voluptatem necessitatibus ab natus.</div>
+                            <div>Et sequi laudantium, minima corrupti possimus asperiores, id delectus perspiciatis repellat beatae laborum soluta praesentium? Necessitatibus qui sint culpa saepe impedit dolorem voluptatum iusto veniam. Distinctio praesentium nisi aspernatur dolore?</div>
+                        </div>
+                        <div class="border-l-4 border-[#3EAF0E] pl-2">프로젝트 제목<span class="text-sm text-gray-500">2024.03.20 - 2024.04.20</span></div>
+                        <div class="text-gray-400">Use Skill : <span class="text-blue-500">#HTML #CSS #JS</span></div>
+                        <div class="text-gray-400">Project link : <a href="#none">www.0000.com/</a></div>
+                        <div class="ml-4">
+                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, adipisci expedita. Omnis dolor sunt harum, ea at cumque ex eveniet pariatur consectetur! Assumenda sunt, nisi nihil esse facere neque in!</div>
+                            <div>Omnis nulla quos porro soluta animi, ad repudiandae non sit fugit blanditiis explicabo, quae cum ex veniam quis ipsa beatae mollitia id ab harum quam. Magni voluptatem necessitatibus ab natus.</div>
+                            <div>Et sequi laudantium, minima corrupti possimus asperiores, id delectus perspiciatis repellat beatae laborum soluta praesentium? Necessitatibus qui sint culpa saepe impedit dolorem voluptatum iusto veniam. Distinctio praesentium nisi aspernatur dolore?</div>
+                        </div>
+                        <div class="border-l-4 border-[#3EAF0E] pl-2">프로젝트 제목<span class="text-sm text-gray-500">2024.03.20 - 2024.04.20</span></div>
+                        <div class="text-gray-400">Use Skill : <span class="text-blue-500">#HTML #CSS #JS</span></div>
+                        <div class="text-gray-400">Project link : <a href="#none">www.0000.com/</a></div>
+                        <div class="ml-4">
+                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, adipisci expedita. Omnis dolor sunt harum, ea at cumque ex eveniet pariatur consectetur! Assumenda sunt, nisi nihil esse facere neque in!</div>
+                            <div>Omnis nulla quos porro soluta animi, ad repudiandae non sit fugit blanditiis explicabo, quae cum ex veniam quis ipsa beatae mollitia id ab harum quam. Magni voluptatem necessitatibus ab natus.</div>
+                            <div>Et sequi laudantium, minima corrupti possimus asperiores, id delectus perspiciatis repellat beatae laborum soluta praesentium? Necessitatibus qui sint culpa saepe impedit dolorem voluptatum iusto veniam. Distinctio praesentium nisi aspernatur dolore?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

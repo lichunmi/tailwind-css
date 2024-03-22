@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>반응형</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- https://tailwindcss.com/docs/screens#custom-media-queries -->
+    <!--
+        다크모드 (부모 클래스 dark 넣어야함): config
+        /** @type {import('tailwindcss').Config} */
+            module.exports = {
+            darkMode: 'class',
+            // ...
+        }
+        
+    -->
+    <div class="w-16 h-15 bg-red-300 sm:w-20 sm:h-20 sm:bg-blue-300 md:w-32 md:h-32 md:bg-green-300">
+        hello world
+    </div>
+    <div class="landscape:hidden">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magnam sapiente fugit rem, soluta recusandae mollitia possimus quos eius voluptate delectus accusamus, accusantium in, eum atque minima quasi porro placeat!
+        </p>
+    </div>
+</body>
+</html> 

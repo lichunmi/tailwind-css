@@ -74,7 +74,46 @@
 **html 파일에 클라스 grid-i 적용가능**
 
 # -----------------  
-ScreenReaderOnly
-tailwindcss = sr-only
-NAVER       = Blind  
-밤          = screenout
+ScreenReaderOnly  
+tailwindcss = sr-only  
+NAVER       = Blind    
+밤          = screenout  
+
+# Border 없는 두께 추가하는 방법   
+tailwins.config.js   
+```javascript  
+      const customBorder = {
+            3: '3px',
+            5: '5px',
+            'custom': '10rem'
+      }
+      const customFomt = {
+            10: '10px',
+            11: '11px',
+            12: '12px',
+            13: '13px',
+            14: '14px',
+            15: '15px',
+            16: '16px',
+            17: '17px',
+            18: '18px',
+            19: '19px',
+            20: '20px',
+            'custom': '100px';
+      }
+      const px100 = {...Array.from(Array(101)).map(_, i) => i + 'px')}
+      
+      module.exports = {
+            theme: {
+                  extend: {
+                        borderWidth: customBorder,
+                        fontSize: customFont
+                  },
+            },
+            plugins: [],
+      }
+```  
+```html
+      <div class="border-custom border-red-900">hello</div>  
+      <div class="border-4 border-red-900 text-10">hello</div>
+```

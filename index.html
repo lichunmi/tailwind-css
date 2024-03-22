@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tailwindcss</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    // 테마색 등록
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            jun: '#da373d',
+          }
+        }
+      }
+    }
+</script>
+<style type="text/tailwindcss">
+    /* 같은 스타일 등록 */
+    @layer components {
+        .junjun {
+            @apply h-32 w-32;
+        }
+        .junjunjun {
+            @apply h-32 w-32 bg-jun;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="grid grid-cols-3 gap-2">
+        <div class="junjun bg-jun"></div>
+        <div class="junjun bg-jun"></div>
+        <div class="junjun bg-jun"></div>
+        <div class="junjun bg-jun"></div>
+        <div class="junjun bg-jun"></div>
+        <div class="junjun bg-jun"></div>
+    </div>
+    <br>
+    <div class="grid grid-cols-3 gap-2">
+        <div class="junjunjun"></div>
+        <div class="junjunjun"></div>
+        <div class="junjunjun"></div>
+        <div class="junjunjun"></div>
+        <div class="junjunjun"></div>
+        <div class="junjunjun"></div>
+    </div>
+</body>
+</html>

@@ -38,8 +38,19 @@
 **clear**  
 ->화면을 지우겠다
 
-[shift]+[insert] 누르면 붙혀넣기  
+(vscode terminal -> [shift]+[insert] 누르면 붙혀넣기  )  
+
 **npm instal -D tailwindcss**  
 **npm tailwindcss init**  
 -> node_modules 폴더 생김  
 -> tailwind.config.js  
+**tailwind.config.js에 content 수정하기**
+```javascript
+		module.exports = {
+		  content: ["./src/**/*.{html,js}"],
+		  theme: {
+		    extend: {},
+		  },
+		  plugins: [],
+		}
+```

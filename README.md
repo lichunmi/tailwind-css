@@ -29,17 +29,17 @@
 ```
 
 # Node JS
-**mkdic test**
+**mkdic test**  
 ->폴더 test 만들기
 
-**cd test**
+**cd test**  
 ->test 폴더 안으로 들어가기
 
-**clear**
+**clear**  
 ->화면을 지우겠다
 
-[shift]+[insert] 누르면 붙혀넣기
-**npm instal -D tailwindcss**
-**npm tailwindcss init**
--> node_modules 폴더 생김
--> tailwind.config.js
+[shift]+[insert] 누르면 붙혀넣기  
+**npm instal -D tailwindcss**  
+**npm tailwindcss init**  
+-> node_modules 폴더 생김  
+-> tailwind.config.js  

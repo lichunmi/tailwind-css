@@ -53,4 +53,17 @@
 		  },
 		  plugins: [],
 		}
+```  
+
+**src/input.css 파일 만들어서 하단 코드 넣기**
+```javascript
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
+      .grid-i {
+            @apply border-4 border-blue-500;
+      }
 ```
+**npx tailwindcss -i ./src/input.css -o ./src/output.css --watch**
+**html에 <link href="./output.css" rel="stylesheet"> 연결**
